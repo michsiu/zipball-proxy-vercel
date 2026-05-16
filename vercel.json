@@ -1,13 +1,16 @@
 {
   "functions": {
     "api/download.py": {
-      "runtime": "python@3.10",
-      "maxDuration": 10
+      "runtime": "python3.9"
     }
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/",
+      "destination": "/api/download"
+    },
+    {
+      "source": "/api/(.*)",
       "destination": "/api/download"
     }
   ]
