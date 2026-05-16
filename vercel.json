@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/download.py": {
-      "maxDuration": 10
+
     }
   },
   "rewrites": [
