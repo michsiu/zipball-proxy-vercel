@@ -1,6 +1,8 @@
 {
   "functions": {
     "api/download.py": {
+
+    "runtime": "python@3.9",
 "maxDuration":60
     }
   },
